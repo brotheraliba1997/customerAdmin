@@ -16,17 +16,20 @@ const App = () => {
 
         {sidebar && (
           <div className=" md:hidden  ">
-            <div className="h-screen w-screen fixed " onClick={() => setSidebar(false)}>
+            <div
+              className="h-screen w-screen fixed "
+              onClick={() => setSidebar(false)}
+            >
               <div className="fixed" onClick={(e) => e.stopPropagation()}>
-            <Sidebar setSidebar={setSidebar} sidebar={sidebar} />
-
+                <Sidebar setSidebar={setSidebar} sidebar={sidebar} />
               </div>
-
             </div>
           </div>
         )}
 
-        <div className={`lg:col-span-5 md:col-span-4  col-span-6   bg-[#F3F3F3]  `}>
+        <div
+          className={`lg:col-span-5 md:col-span-4  col-span-6   bg-[#F3F3F3]  `}
+        >
           <Header setSidebar={setSidebar} />
           <div className="">
             <Routes>

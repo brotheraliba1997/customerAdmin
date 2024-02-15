@@ -19,7 +19,7 @@ function TableHead() {
     <div className="min-w-[800px] ">
 
    
-      <div className="grid grid-cols-5 border  bg-[#57BC90] border-[#57BC90] border-opacity-50  bg-opacity-50 rounded-md  justify-center   items-center p-2 shadow-lg  ">
+      <div className="grid grid-cols-7 border  bg-[#57BC90] border-[#57BC90] border-opacity-50  bg-opacity-50 rounded-md  justify-center   items-center p-2 shadow-lg  ">
         <div></div>
         <div className="flex items-center justify-start ">
           <p className="text-[#015249] text-[16px] font-[600]">Customer ID</p>
@@ -79,6 +79,14 @@ function TableHead() {
               <p className="text-[#57BC90]">Jordan Josepskaa</p>
             </div>
             {/* third */}
+            <div className="truncate overflow-hidden">
+              <p>randomemail@gmail.com</p>
+            </div>
+
+            <div className="truncate overflow-hidden">
+              <p>randomemail@gmail.com</p>
+            </div>
+
             <div className="truncate overflow-hidden">
               <p>randomemail@gmail.com</p>
             </div>
